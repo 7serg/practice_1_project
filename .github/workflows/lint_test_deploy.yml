@@ -11,9 +11,7 @@ jobs:
         with: 
           node-version: '18'
       - name: Lint the code
-        run: |
-          npm run lint
-          npm install eslint --save-dev
+        run: npm run lint
       
         
 
